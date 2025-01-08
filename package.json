@@ -1,0 +1,13 @@
+{
+	"name": "com.laureveler.unity-utils",
+	"version": "1.0.0",
+	"displayName": "laureveler Unity Utils",
+	"description": "Useful tools for Unity projects.",
+	"unity": "2022.3",
+	"author": {
+		"name": "Laura Pincombe",
+		"email": "laura@pincombe.net",
+		"url": ""
+	}
+}
+	
