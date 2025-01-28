@@ -1,0 +1,17 @@
+{
+    "name": "Utilities.SceneManagement",
+    "rootNamespace": "",
+    "references": [
+        "GUID:43011a92aca6e6e4fab0421ad82eddf6",
+        "GUID:a18aaf0f469787a4f80993f669584ade"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
