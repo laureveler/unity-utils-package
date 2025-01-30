@@ -32,7 +32,16 @@ namespace Utilities
 
         protected static void CreateInstance()
         {
-            _instance = (T)FindObjectOfType(typeof(T), true);
+            var instances = FindObjectsOfType<T>(true);
+
+            foreach (var instance in instances)
+            {
+                if (instance is T typedInstance)
+                {
+                    _instance = typedInstance;
+                    return;
+                }
+            }
 
             if (_instance == null)
             {
