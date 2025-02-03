@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using com.cyborgAssets.inspectorButtonPro;
 using com.cyborgAssets.internalIBP;
 using com.cyborgAssets.internalIBPProPrem;
@@ -16,3 +17,4 @@ namespace com.cyborgAssets.internalIBPEditor
         }
     }
 }
+#endif

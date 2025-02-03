@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using com.cyborgAssets.internalIBP;
 using UnityEditor;
 using UnityEngine;
@@ -17,3 +18,4 @@ namespace com.cyborgAssets.internalIBPEditor
         }
     } 
 }
+#endif

@@ -1,3 +1,4 @@
+#if UNITY_EDITOR
 using System;
 //using DefaultNamespace;
 using UnityEditor;
@@ -270,3 +271,4 @@ namespace com.cyborgAssets.internalIBPEditor
         }
     }
 }
+#endif
