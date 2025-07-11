@@ -25,13 +25,13 @@ namespace Utilities.Display
     bool deviceIsIpad = UnityEngine.iOS.Device.generation.ToString().Contains("iPad");
             if (deviceIsIpad)
             {
-                return DeviceType.Tablet;
+                return MobileDeviceType.Tablet;
             }
 
             bool deviceIsIphone = UnityEngine.iOS.Device.generation.ToString().Contains("iPhone");
             if (deviceIsIphone)
             {
-                return DeviceType.Phone;
+                return MobileDeviceType.Phone;
             }
 #endif
             float aspectRatio = Mathf.Max(Screen.width, Screen.height) / Mathf.Min(Screen.width, Screen.height);
